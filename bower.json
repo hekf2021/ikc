@@ -1,0 +1,26 @@
+{
+  "name": "mywork",
+  "description": "my study",
+  "main": "index.js",
+  "authors": [
+    "hekf"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ui"
+  ],
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "3.3.6",
+    "angular": "1.4.7"
+  }
+}

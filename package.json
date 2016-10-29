@@ -1,0 +1,22 @@
+{
+  "name": "mywork",
+  "version": "1.0.0",
+  "description": "my study",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "hekf",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-notify": "^2.2.0",
+    "http-proxy": "^1.15.2",
+    "http-proxy-middleware": "^0.17.2"
+  }
+}
