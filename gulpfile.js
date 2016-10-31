@@ -5,8 +5,11 @@ var browserSync = require('browser-sync').create("myServer");
 gulp.task('serve', function() {
 
     browserSync.init({
-        server: "./app"
+        server: "./"
     });
     browserSync.watch("app/*.html").on('change', browserSync.reload);
+    browserSync.watch("app/js/*.js").on('change', browserSync.reload);
 });
-gulp.task('default', ["serve"]);
+gulp.task('default', ["serve"],function(){
+	browserSync.reload();
+});

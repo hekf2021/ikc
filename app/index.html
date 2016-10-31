@@ -1,14 +1,17 @@
-<html> 
+<html ng-app="webb-ui"> 
 <head> 
 <title>超级链接的设置</title> 
+<script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="js/com.js"></script>
 </head> 
 <body> 
 <font size="1"> 
-进入列表的设置页面aaaaaaaaaaaabbb
-sadfasdfasdfasdfasdf
-asdfasdfasdfasdfasdfas
-sadfasdfasdfasdfasdfasdf
-<p>人同南路这是谁</p>
+<div ng-controller="myController">
+{{message}}
+
+<input type="button" value="test" ng-click="myGetData()"></input>
+</div>
+<p>人同南路这是谁1111111111111122222222222221111</p>
 </font> 
 </body> 
 </html> 
